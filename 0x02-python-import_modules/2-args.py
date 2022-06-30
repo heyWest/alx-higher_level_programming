@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-if __name == "__main__":
+if __name__ == "__main__":
     import sys
     var = len(sys.argv) - 1
 
-    if var == 0:
-        print("{} arguments:".format(var))
-    elif var == 1:
+    if var == 1:
         print("{} argument:".format(var))
     else:
         print("{} arguments:".format(var))
