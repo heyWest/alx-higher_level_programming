@@ -2,7 +2,6 @@
 if __name__ == "__main__":
     import sys
     var = len(sys.argv) - 1
-    
     if var == 0:
         print("{} arguments:".format(var))
     elif var == 1:
