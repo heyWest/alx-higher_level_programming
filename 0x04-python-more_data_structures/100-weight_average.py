@@ -7,3 +7,4 @@ def weight_average(my_list=[]):
             acc += x[0] * x[1]
             var += x[1]
         return (acc / var)
+    return 0
